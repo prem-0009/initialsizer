@@ -2,8 +2,6 @@
  * Your code here!
  ******************************************************************************/
 
-getInput(0);//calling to get the first name--node-0 main.js-1 firstname-2
-getInput(1);//calling to get the second name
 const fname=getInput(0);//assigning output of getinput(0) to var fname
 const sname=getInput(1);//assigning output of getinput(0) to var sname
 
