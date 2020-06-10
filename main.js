@@ -2,6 +2,24 @@
  * Your code here!
  ******************************************************************************/
 
+getInput(0);//calling to get the first name--node-0 main.js-1 firstname-2
+getInput(1);//calling to get the second name
+const fname=getInput(0);//assigning output of getinput(0) to var fname
+const sname=getInput(1);//assigning output of getinput(0) to var sname
+
+// function to return upppercase initial of firstname and lastname
+function initial(fname,sname){
+  return fname[0].toUpperCase()+'.'+sname[0].toUpperCase()+'.'
+}
+const ini=initial(fname,sname)//assigning o/p of initial(fname,sname) to var ini
+
+const len=fname.length + sname.length;//calculate' the length of name
+
+const msg='Hey, '+ini+' Mind if I call you that? \nYour full name is '+ len + ' letters long!'
+
+console.log(msg);
+
+
 
 
 /*******************************************************************************
